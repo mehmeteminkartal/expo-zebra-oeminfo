@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Zebra OEMInfo Example",
+    "slug": "zebra-oeminfo-example",
+    "version": "1.0.0",
+    "platforms": [
+      "android"
+    ],
+    "android": {
+      "package": "expo.modules.zebraoeminfo.example"
+    }
+  }
+}

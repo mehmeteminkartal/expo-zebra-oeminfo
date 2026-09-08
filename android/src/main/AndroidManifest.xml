@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="com.zebra.provider.READ" />
+  <queries>
+    <provider android:authorities="oem_info" />
+    <package android:name="com.zebra.oeminfo" />
+    <package android:name="com.zebra.zebracontentprovider" />
+  </queries>
+</manifest>

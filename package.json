@@ -1,0 +1,52 @@
+{
+  "name": "expo-zebra-oeminfo",
+  "version": "0.1.0",
+  "description": "Read Zebra OEMInfo device identifiers with automatic Expo linking and Android manifest integration.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build",
+    "src",
+    "android/src",
+    "android/build.gradle",
+    "expo-module.config.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepack": "npm run build"
+  },
+  "peerDependencies": {
+    "expo": "^56.0.0",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3",
+    "expo": "~56.0.11",
+    "react": "19.2.3",
+    "react-native": "0.85.3",
+    "@types/react": "~19.2.17"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "zebra",
+    "oeminfo",
+    "tc21",
+    "tc27"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehmeteminkartal/expo-zebra-oeminfo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mehmeteminkartal/expo-zebra-oeminfo/issues"
+  },
+  "homepage": "https://github.com/mehmeteminkartal/expo-zebra-oeminfo#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

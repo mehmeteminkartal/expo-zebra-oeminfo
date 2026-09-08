@@ -1,0 +1,10 @@
+node_modules/
+build/
+*.tgz
+.gradle/
+android/build/
+local.properties
+
+example/android/
+example/.expo/
+example/dist/
